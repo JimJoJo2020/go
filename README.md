@@ -330,6 +330,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [asciigraph](https://github.com/guptarohit/asciigraph) - Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies.
 - [aurora](https://github.com/logrusorgru/aurora) - ANSI terminal colors that support fmt.Printf/Sprintf.
 - [box-cli-maker](https://github.com/Delta456/box-cli-maker) - Make Highly Customized Boxes for your CLI.
+- [bubbletea](https://github.com/charmbracelet/bubbletea) - Go framework to build terminal apps, based on The Elm Architecture.
 - [cfmt](https://github.com/mingrammer/cfmt) - Contextual fmt inspired by bootstrap color classes.
 - [cfmt](https://github.com/i582/cfmt) - Simple and convenient formatted stylized output fully compatible with fmt library.
 - [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
@@ -344,6 +345,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
 - [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 - [gookit/color](https://github.com/gookit/color) - Terminal color rendering tool library, support 16 colors, 256 colors, RGB color rendering output, compatible with Windows.
+- [lipgloss](https://github.com/charmbracelet/lipgloss) - Declaratively define styles for color, format and layout in the terminal.
 - [marker](https://github.com/cyucelen/marker) - Easiest way to match and mark strings for colorful terminal outputs.
 - [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
 - [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
@@ -650,7 +652,6 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [ttlcache](https://github.com/jellydator/ttlcache) - An in-memory cache with item expiration and generics.
 - [ttlcache](https://github.com/cheshir/ttlcache) - In-memory key value storage with TTL for each record.
 
-
 ### Databases Implemented in Go
 
 - [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
@@ -743,6 +744,7 @@ _Libraries for building and using SQL._
 
 - [bqb](https://github.com/nullism/bqb) - Lightweight and easy to learn query builder.
 - [buildsqlx](https://github.com/arthurkushman/buildsqlx) - Go database query builder library for PostgreSQL.
+- [builq](https://github.com/cristalhq/builq) - Easily build SQL queries in Go.
 - [dbq](https://github.com/rocketlaunchr/dbq) - Zero boilerplate database operations for Go.
 - [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use them with ease.
 - [gendry](https://github.com/didi/gendry) - Non-invasive SQL builder and powerful data binder.
@@ -1120,7 +1122,7 @@ _Awesome game development libraries._
 - [go3d](https://github.com/ungerik/go3d) - Performance oriented 2D/3D math package for Go.
 - [gonet](https://github.com/xtaci/gonet) - Game server skeleton implemented with golang.
 - [goworld](https://github.com/xiaonanln/goworld) - Scalable game server engine, featuring space-entity framework and hot-swapping.
-- [Harfang3D](https://github.com/harfang3d/harfang3d) - 3D engine for the Go language, works on Windows and Linux ([Harfang on Go.dev](https://github.com/harfang3d/harfang-go)). 
+- [Harfang3D](https://github.com/harfang3d/harfang3d) - 3D engine for the Go language, works on Windows and Linux ([Harfang on Go.dev](https://github.com/harfang3d/harfang-go)).
 - [Leaf](https://github.com/name5566/leaf) - Lightweight game server framework.
 - [nano](https://github.com/lonng/nano) - Lightweight, facility, high performance golang based game server framework.
 - [Oak](https://github.com/oakmound/oak) - Pure Go game engine.
@@ -1889,7 +1891,6 @@ _Libraries for making HTTP requests._
 - [go-zoox/fetch](https://github.com/go-zoox/fetch) - A Powerful, Lightweight, Easy Http Client, inspired by Web Fetch API.
 - [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library.
 - [heimdall](https://github.com/gojektech/heimdall) - An enhanced http client with retry and hystrix capabilities.
-- [httpc](https://github.com/valord577/httpc) - A customizable and simple HTTP client library. Only depend on the stdlib HTTP client.
 - [httpretry](https://github.com/ybbus/httpretry) - Enriches the default go HTTP client with retry functionality.
 - [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
 - [req](https://github.com/imroc/req) - Simple Go HTTP client with Black Magic (Less code and More efficiency).
@@ -2832,7 +2833,6 @@ _Full stack web frameworks._
 - [Tollbooth](https://github.com/didip/tollbooth) - Rate limit HTTP request handler.
 - [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends.
 
-
 #### Libraries for creating HTTP middlewares
 
 - [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go.
@@ -3326,6 +3326,7 @@ _Where to discover new Go libraries._
 - [Golang Paris](https://www.meetup.com/Golang-Paris/)
 - [Golang Poland](https://www.meetup.com/Golang-Poland/)
 - [Golang Pune](https://www.meetup.com/Golang-Pune/)
+- [Golang Rotterdam](https://www.meetup.com/golang-rotterdam/)
 - [Golang Singapore](https://www.meetup.com/golangsg/)
 - [Golang Stockholm](https://www.meetup.com/Go-Stockholm/)
 - [Golang Sydney, AU](https://www.meetup.com/golang-syd/)
@@ -3354,6 +3355,7 @@ _Where to discover new Go libraries._
 - [bahlo/go-styleguide](https://github.com/bahlo/go-styleguide)
 - [CockroachDB](https://github.com/cockroachdb/cockroach/blob/master/docs/style.md)
 - [GitLab](https://docs.gitlab.com/ee/development/go_guide/)
+- [Google](https://google.github.io/styleguide/go/)
 - [Hyperledger](https://github.com/hyperledger/fabric/blob/release-1.4/docs/source/style-guides/go-style.rst)
 - [Magnetico](https://github.com/boramalper/magnetico/wiki/magnetico-Design-Specification)
 - [Sourcegraph](https://about.sourcegraph.com/handbook/engineering/go_style_guide)
